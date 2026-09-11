@@ -11,9 +11,9 @@
 
 - 정점 5개 이상의 커스텀 다각형을 구현하고 Scene 뷰와 Game 뷰에서 확인한다.
 - 과제 씬: [S03_HW](Assets/S03/S03_HW.unity)
-- 현재 1단계: 정점 3개로 기본 삼각형 메시를 구현하였다. 정점 5개 이상 다각형으로 확장할 예정이다.
+- 정점 5개와 삼각형 3개로 집 모양의 평면 오각형을 구성한다.
+- 분홍색 재질을 적용하고, 정면 카메라로 다각형의 형태를 확인한다.
 - 제공된 씬:
   - [S03_CustomPolygonMesh_Square](Assets/S03/S03_Mesh2D/S03_CustomPolygonMesh_Square.unity): 커스텀 다각형 구현용 템플릿
   - [S03_SingleTriangleMesh_Finish](Assets/S03/S03_Mesh2D/S03_SingleTriangleMesh_Finish.unity): 삼각형 메시 실습
   - [S03_WireFrame](Assets/S03/S03_Mesh2D/S03_WireFrame.unity): 와이어프레임 실습
-
