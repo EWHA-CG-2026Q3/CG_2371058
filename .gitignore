@@ -1,0 +1,30 @@
+# Unity generated files
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+# Local IDE files
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+# OS and packaging metadata
+.DS_Store
+Thumbs.db
+**/__MACOSX/
+**/__MACOSX.meta
+# Local output and temporary files
+/output/
+/tmp/
