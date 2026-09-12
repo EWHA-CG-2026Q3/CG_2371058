@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// S04 1단계: 정육면체 바닥의 네 점과 위아래 꼭짓점으로 정점을 정의한다.
+// 여섯 정점을 위쪽 네 면과 아래쪽 네 면으로 연결한다.
 [ExecuteAlways]
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class S04_DiamondMesh : MonoBehaviour
@@ -18,16 +18,27 @@ public class S04_DiamondMesh : MonoBehaviour
 
     void OnEnable()
     {
-        generatedMesh = new Mesh { name = "S04 Diamond Vertices", hideFlags = HideFlags.DontSave };
+        generatedMesh = new Mesh { name = "S04 Diamond", hideFlags = HideFlags.DontSave };
         generatedMesh.vertices = vertices;
-        // 2단계에서 위쪽 4면과 아래쪽 4면의 인덱스를 작성한다.
-        generatedMesh.triangles = new int[0];
+        // 각 삼각형의 앞면이 입체 바깥쪽을 향하도록 연결한다.
+        generatedMesh.triangles = new int[]
+        {
+            0, 4, 1, // 위쪽: z=0 방향
+            1, 4, 2, // 위쪽: x=1 방향
+            2, 4, 3, // 위쪽: z=1 방향
+            3, 4, 0, // 위쪽: x=0 방향
+            0, 1, 5, // 아래쪽: z=0 방향
+            1, 2, 5, // 아래쪽: x=1 방향
+            2, 3, 5, // 아래쪽: z=1 방향
+            3, 0, 5, // 아래쪽: x=0 방향
+        };
+        generatedMesh.RecalculateNormals();
         generatedMesh.RecalculateBounds();
         GetComponent<MeshFilter>().sharedMesh = generatedMesh;
     }
 
-    // 면이 없는 1단계에서도 Scene 뷰에서 여섯 점의 위치를 확인한다.
-    void OnDrawGizmos()
+    // 선택했을 때 Scene 뷰에서 여섯 정점의 위치를 확인한다.
+    void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         foreach (Vector3 vertex in vertices)
