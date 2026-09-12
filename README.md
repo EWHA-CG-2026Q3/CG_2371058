@@ -5,7 +5,6 @@
 - 과제 씬: [S02_HW](Assets/S02/S02_HW.unity)
 - 큐브 1개와 원기둥 4개의 Transform을 조정하여 탁자를 구성한다.
 - Scene 뷰의 이동·회전·크기 조절 도구와 시점 탐색 기능을 실습한다.
-- 제공된 실습 씬: [S02_CoordinateWarmup_Finish](Assets/S02/S02_CoordinateSystem/S02_CoordinateWarmup_Finish.unity)
 
 ## S03 - 커스텀 다각형 메시 만들기
 
@@ -13,7 +12,10 @@
 - 과제 씬: [S03_HW](Assets/S03/S03_HW.unity)
 - 정점 5개와 삼각형 3개로 집 모양의 평면 오각형을 구성한다.
 - 분홍색 재질을 적용하고, 정면 카메라로 다각형의 형태를 확인한다.
-- 제공된 씬:
-  - [S03_CustomPolygonMesh_Square](Assets/S03/S03_Mesh2D/S03_CustomPolygonMesh_Square.unity): 커스텀 다각형 구현용 템플릿
-  - [S03_SingleTriangleMesh_Finish](Assets/S03/S03_Mesh2D/S03_SingleTriangleMesh_Finish.unity): 삼각형 메시 실습
-  - [S03_WireFrame](Assets/S03/S03_Mesh2D/S03_WireFrame.unity): 와이어프레임 실습
+
+## S04 - 커스텀 다이아몬드 메시 만들기
+
+- 과제 씬: [S04_HW](Assets/S04/S04_HW.unity)
+- 정점 6개와 삼각형 8개로 입체 다이아몬드를 구성한다.
+- 각 면이 바깥쪽을 향하도록 삼각형 인덱스의 winding order를 지정한다.
+- 분홍색 재질과 비스듬한 카메라 구도로 입체 형태를 확인한다.
