@@ -34,3 +34,10 @@
 - FillVerticalStripes는 x 좌표를 이용해 색을 번갈아 채운다.
 - FillCheckerboard는 x와 y의 칸 번호 합을 이용해 체스판 무늬를 만든다.
 - 256×256 텍스처에 16텍셀 간격으로 분홍색과 흰색을 적용한다.
+
+## S06 - 소프트웨어 래스터화와 GL 삼각형 그리기
+
+- 과제 씬: [S06_HW](Assets/S06/S06_HW.unity)
+- 꼭짓점 좌표와 색을 수정하고, 무게중심 좌표로 텍셀의 삼각형 내부 여부를 판정해 색칠한다.
+- GL.Begin, GL.Color, GL.Vertex3, GL.End로 immediate mode 삼각형을 그린다.
+- 하나의 씬에서 왼쪽은 픽셀 판정 결과, 오른쪽은 GL 결과를 확인할 수 있다.
