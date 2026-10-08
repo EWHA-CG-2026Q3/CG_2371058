@@ -77,3 +77,11 @@
 - 부모 없는 오브젝트와 `S10_DiamondChain_Finish`의 Chain으로 관람차를 구성한다.
 - 같은 관람차를 실제 부모·자식 Hierarchy로 하나 더 구성하여 두 방식의 움직임을 비교한다.
 - 바퀴는 240프레임에 한 바퀴 회전하고, 네 캐빈은 반대 방향으로 회전하여 항상 똑바로 서 있도록 구현한다.
+
+## S11 - 뷰 변환과 가상 카메라
+
+- 기본 과제 씬: [S11_VirtualCamera_Finish](Assets/S11/S11_VirtualCamera_Finish.unity)
+- 애니메이션 과제 씬: [S11_DiamondView](Assets/S11/S11_DiamondView.unity)
+- 가상 카메라의 위치와 회전으로 뷰 행렬을 만들고, 오브젝트를 카메라 기준 좌표로 변환해 Canvas에 그린다.
+- `MultiplyMatrixMatrix`에서 행렬 곱을 열 단위로 직접 계산한다.
+- 움직이는 다이아몬드와 달을 Canvas에 실시간으로 그려 Game 뷰와 비교한다.
