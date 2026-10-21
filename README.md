@@ -85,3 +85,17 @@
 - 가상 카메라의 위치와 회전으로 뷰 행렬을 만들고, 오브젝트를 카메라 기준 좌표로 변환해 Canvas에 그린다.
 - `MultiplyMatrixMatrix`에서 행렬 곱을 열 단위로 직접 계산한다.
 - 움직이는 다이아몬드와 달을 Canvas에 실시간으로 그려 Game 뷰와 비교한다.
+
+## S12 - 원근투영과 정물화
+
+- 기본 과제 씬: [S12_VirtualCamera_Finish](Assets/S12/S12_VirtualCamera_Finish.unity)
+- 정물화 과제 씬: [S12_StillLife](Assets/S12/S12_StillLife.unity)
+- 가상 카메라의 원근투영 결과를 캔버스와 Game 뷰에서 비교한다.
+- S02 탁자와 직접 만든 메시 세 개를 가까운 거리와 먼 거리에 배치한다.
+
+## S13 - 정자 야간 장면
+
+- 과제 씬: [S13_Landscape](Assets/S13/S13_Landscape.unity)
+- SceneWalker로 정자 밖에서 안으로 이동하며 조명과 안개가 적용된 장면을 살펴본다.
+- S02 탁자, Unity 프리미티브 세 개, 직접 만든 메시 세 개를 정자 안에 배치한다.
+- 외부 Pavilion 모델과 텍스처는 `Assets/ThirdParty/Pavilion`에 보관한다.
