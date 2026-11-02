@@ -111,3 +111,9 @@
 - 과제 씬: [S15_Landscape](Assets/S15/S15_Landscape.unity)
 - 화로의 연기와 흐르는 테이블 상판을 구성하고, 바닥에 흐르는 물웅덩이를 추가한다.
 - 흐름 효과는 `S15_SG_Flow` 셰이더 그래프로 구현한다.
+
+## S16 - 셰이더와 발광 색
+
+- 과제 씬: [S16_Landscape](Assets/S16/S16_Landscape.unity)
+- 직접 만든 `S16_MyCoal` 셰이더에서 Base Color와 Emission Color를 더해 발광 색을 출력한다.
+- 목표 숯과 직접 만든 셰이더의 공을 비교하고, 다이아몬드와 피라미드 메시에는 서로 다른 발광 색을 적용한다.
