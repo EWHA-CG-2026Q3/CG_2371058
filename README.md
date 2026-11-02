@@ -117,3 +117,15 @@
 - 과제 씬: [S16_Landscape](Assets/S16/S16_Landscape.unity)
 - 직접 만든 `S16_MyCoal` 셰이더에서 Base Color와 Emission Color를 더해 발광 색을 출력한다.
 - 목표 숯과 직접 만든 셰이더의 공을 비교하고, 다이아몬드와 피라미드 메시에는 서로 다른 발광 색을 적용한다.
+
+## S17 - 텍스처 UV 좌표 실습
+
+- 과제 씬: [S17_Landscape](Assets/S17/S17_Landscape.unity)
+- 격자 텍스처와 직접 만든 셰이더를 Quad, Sphere, 다이아몬드 메시에서 비교한다.
+- UV 좌표를 조정해 표면에 D3 칸만 보이도록 구현한다.
+
+## 10/29 S17 출석인정과제 - 텍스처 일부 표시
+
+- 과제 씬: [S17_Abs_HW](Assets/S17_Abs/S17_Abs_HW.unity)
+- Quad의 왼쪽 위 1/4에 격자 텍스처의 오른쪽 아래 1/4만 표시하고 나머지는 회색으로 채운다.
+- 같은 재질을 Sphere에 적용해 UV 배치에 따른 결과를 비교한다.
